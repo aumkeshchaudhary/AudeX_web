@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #141E30; /* Ensure solid background */
+    background: #243B55; /* Changed to a solid blue color */
     color: #fff;
     display: flex;
     flex-direction: column;
