@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #141E30; /* Changed to a solid color */
+    background: #141E30; /* Ensure solid background */
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ body {
 }
 
 .sidebar a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Increased opacity for better visibility */
+    background-color: #2E3A4B; /* Solid color for hover */
 }
 
 .sidebar .close-btn {
@@ -106,7 +106,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Increased opacity for better visibility */
+    background-color: #2E3A4B; /* Solid color for hover */
     color: #d1d1d1;
     border-radius: 5px;
     border: 2px solid #0a0a0a;
@@ -166,7 +166,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Increased opacity for better visibility */
+    background-color: #2E3A4B; /* Solid color for hover */
     color: #d1d1d1;
     transform: translateY(-3px);
 }
