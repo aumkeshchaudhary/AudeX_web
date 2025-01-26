@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, #141E30, #243B55);
+    background: #141E30; /* Changed to a solid color */
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ body {
     z-index: 1001;
     top: 0;
     left: 0;
-    background-color: #1B2735;
+    background-color: #1B2735; /* Ensure solid background */
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -46,7 +46,7 @@ body {
 }
 
 .sidebar a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2); /* Increased opacity for better visibility */
 }
 
 .sidebar .close-btn {
@@ -69,7 +69,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #1B2735;
+    background-color: #1B2735; /* Ensure solid background */
     color: #fff;
     padding: 20px 0;
     position: sticky;
@@ -106,7 +106,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3); /* Increased opacity for better visibility */
     color: #d1d1d1;
     border-radius: 5px;
     border: 2px solid #0a0a0a;
@@ -166,7 +166,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3); /* Increased opacity for better visibility */
     color: #d1d1d1;
     transform: translateY(-3px);
 }
@@ -203,7 +203,7 @@ textarea {
 }
 
 footer {
-    background-color: #1B2735;
+    background-color: #1B2735; /* Ensure solid background */
     color: white;
     text-align: center;
     padding: 20px 0;
